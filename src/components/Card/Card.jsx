@@ -4,7 +4,7 @@ import anushka from '../../assets/anushka.jpeg';
 import Button from '../Buttons/Button';
 const Card = () => {
     return (
-        <div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center bg-[black] items-center min-h-screen">
 
         <div className="bg-black relative">
             <img 
@@ -13,7 +13,7 @@ const Card = () => {
                 alt="card" 
             /> 
 
-
+            
             <div className="absolute top-[30px] top-[20px] left-[45px] ">
                 <img 
                     src={anushka} 
