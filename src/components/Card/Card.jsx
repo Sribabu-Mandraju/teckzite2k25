@@ -6,7 +6,7 @@ const Card = () => {
     return (
         <div className="flex justify-center bg-[black] items-center min-h-screen">
 
-        <div className="bg-black relative">
+        <div className=" relative">
             <img 
                 src={card} 
                 className="relative h-[450px] w-[300px]" 

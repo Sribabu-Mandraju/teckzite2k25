@@ -4,6 +4,8 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Footer from './components/Buttons/Footer';
 import Card from './components/Card/Card';
 import HorizontalCard from './components/Card/HorizontalCard';
+import './App.css'
+
 const App = () => {
   return (
     <Router>
@@ -19,4 +21,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

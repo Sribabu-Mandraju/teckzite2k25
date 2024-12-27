@@ -16,7 +16,7 @@ const Button = ({ name, text, action }) => {
     };
 
     return (
-        <div className="bg-[black] flex justify-center items-center">
+        <div className=" flex justify-center items-center">
             <div className="relative">
                 <img src={button} className="h-[50px] w-[100px]" />
                 <div
