@@ -1,0 +1,24 @@
+.image {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/desktop.png');
+}
+@media(max-width: 768px) {
+    .image {
+        background-image: url('../assets/tab.png');
+        padding: 40px;
+        
+        background-position: center; 
+    }
+}
+@media(max-width: 360px) {
+    .image {
+        background-image: url('../assets/mobile.png');
+        padding: 0; 
+        background-size: 350px auto; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height:50px; 
+    }
+}
