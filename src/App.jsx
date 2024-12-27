@@ -1,11 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import './App.css'
+import Hero from "./components/hero/Hero";
+import Header from "./components/header/Header";
 const App = () => {
   return (
     <>
-      <div className="text-center">Hello</div>
+    <Header />
+    <Hero />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
