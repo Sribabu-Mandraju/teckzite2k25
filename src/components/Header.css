@@ -3,22 +3,44 @@
     background-position: center;
     background-image: url('../assets/desktop.png');
 }
-@media(max-width: 768px) {
+
+/* Tablet View */
+@media (max-width: 768px) {
     .image {
         background-image: url('../assets/tab.png');
         padding: 40px;
-        
-        background-position: center; 
+        background-position: center;
+    }
+
+    .tab {
+        display: flex;
+        gap: 200px; /* Adjust gap for tablet */
+    }
+
+    .menu {
+        font-size: 20px; /* Increased from 10px for readability */
+    }
+
+    .teck {
+        font-size: 30px;
+        margin-left: -10px;
+    }
+
+    .login {
+        font-size: 20px; /* Increased from 10px for readability */
     }
 }
-@media(max-width: 360px) {
+
+/* Mobile View */
+@media (max-width: 360px) {
     .image {
         background-image: url('../assets/mobile.png');
-        padding: 0; 
-        background-size: 350px auto; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        width: 100%; 
-        height:50px; 
+        padding: 0;
+        top: 0;
+        background-size: 360px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 34px;
     }
 }
