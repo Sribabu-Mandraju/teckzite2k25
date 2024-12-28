@@ -9,6 +9,7 @@ import { Menu } from './components/Menu';
 
 const App = () => {
   return (
+    <div className='bg-[#1E1C1C]'>
     <Router>
       <Routes>
         <Route path="/" element={<Menu />}/>
@@ -17,6 +18,7 @@ const App = () => {
        <Route path="/horizontal" element={<HorizontalCard />}/>
       </Routes>
     </Router>
+    </div>
   )
 }
 
