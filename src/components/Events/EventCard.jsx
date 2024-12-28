@@ -14,8 +14,6 @@ const EventCard = ({name,image,time}) => {
                 className="relative h-[450px] w-[300px]" 
                 alt="card" 
             /> 
-
-            
             <div className="absolute top-[30px] top-[20px] left-[45px] ">
                 <img 
                     src={image} 
