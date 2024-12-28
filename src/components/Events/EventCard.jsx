@@ -6,7 +6,7 @@ import Button from '../Buttons/Button';
 
 const EventCard = ({name,image,time}) => {
     return (
-        <div className="flex justify-center bg-[black] items-center min-h-screen">
+        <div className="flex justify-center bg-[black] items-center ">
 
         <div className=" relative">
             <img 
