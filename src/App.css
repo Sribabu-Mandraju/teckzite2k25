@@ -1,4 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+#particles canvas {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+.robo-img{
+    transition: all;
+    animation: float 5s ease 0.2s infinite forwards;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px)
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

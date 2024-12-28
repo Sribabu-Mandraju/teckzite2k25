@@ -1,3 +1,4 @@
+
 import React from 'react';
 import card from '../../assets/card.png';
 import anushka from '../../assets/anushka.jpeg';
@@ -32,11 +33,9 @@ const EventCard = ({name,image,time}) => {
                 <Button name="know more"/>
                 </div>
             </div>
-
-
-        </div>
-        </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default EventCard;
