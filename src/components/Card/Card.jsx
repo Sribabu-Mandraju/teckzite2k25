@@ -22,10 +22,12 @@ const Card = () => {
                 />
             </div>
 
-            <div className="absolute top-[270px] left-[50px] flex flex-col gap-[20px] ">
-              <div className="text-[20px] text-[white] font-bold text-[white] ml-[55px]">Anushka</div>
-              <div className="text-[15px] text-[white] text-center ml-[45px]">small description</div>
-              <div className=" ml-[50px]">
+            <div className="absolute top-[270px] left-[0px] flex flex-col gap-[20px] ">
+                <div className="flex flex-col gap-[20px] ml-[70px]">
+              <div className="text-[20px] text-[white] font-bold text-[white]  ">Anushka</div>
+              <div className="text-[15px] text-[white] text-center  ml-[-160px] ">Time</div>
+              </div>
+              <div className=" ml-[160px]">
                 <Button name="know more"/>
                 </div>
             </div>
