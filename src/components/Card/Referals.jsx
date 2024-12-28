@@ -8,7 +8,7 @@ const Referals = () => {
         <div className="flex justify-center items-center w-full pt-[40px] text-white"><img src={Groupone} className="w-full h-[60px] md:max-w-[850px] relative"></img>
         <div className="absolute flex flex-row font-bold w-[800px]">
             <p>S.NO</p>
-            <p className="pl-40">Name</p>
+            <p className="pl-32">Name</p>
             <p className="pl-52">Email</p>
             <p className="pl-60">Referals</p>
         </div></div>
