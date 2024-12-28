@@ -12,8 +12,6 @@ const App = () => {
     <div className='bg-[#1E1C1C]'>
     <Router>
       <Routes>
-
-
         <Route path="/" element={<Menu />}/>
         <Route path="/referals" element={<Referals />}/>
         <Route path="/card" element={<EventCard />}/>

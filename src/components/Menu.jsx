@@ -41,12 +41,24 @@ export const Menu = () => {
           <div className="md:ml-[-30px]">
             <MenuButton />
           </div>
+          <div className="md:ml-[-150px]">
+            <MenuButton />
+          </div>
+          <div className="md:ml-[-30px]">
+            <MenuButton />
+          </div>
         </div>
         <div className="right-buttons md:absolute right-0 top-[30px] flex flex-col gap-[30px]">
           <div className="md:mr-[-30px]">
             <MenuButton />
           </div>
           <div className="md:mr-[-120px]">
+            <MenuButton />
+          </div>
+          <div className="md:mr-[-150px]">
+            <MenuButton />
+          </div>
+          <div className="md:mr-[-30px]">
             <MenuButton />
           </div>
           <div className="md:mr-[-150px]">
