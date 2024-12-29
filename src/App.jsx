@@ -5,7 +5,6 @@ import './App.css'
 import Events from './components/Events/Events';
 import EventCard from './components/Events/EventCard';
 import HorizontalCard from './components/Card/HorizontalCard';
-import Referals from './components/Card/Referals';
 import Workshopcard from './components/workshops/Workshopcard';
 import WebTeam from './components/WebTeam/WebTeam';
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Workshopcard />}/>
-        <Route path="/referals" element={<Referals />}/>
         <Route path="/card" element={<EventCard />}/>
        <Route path="/horizontal" element={<HorizontalCard />}/>
        <Route path="/webteam" element={<WebTeam />}/>
