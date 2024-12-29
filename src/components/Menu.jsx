@@ -28,44 +28,47 @@ export const Menu = () => {
             className="h-[32px] w-[450px] absolute  left-[10%] top-[25%]"
           />
         </div>
-        <div className="left-buttons pt-[30px] md:pt-0 md:absolute left-0 md:top-[30px] flex flex-col gap-[30px]">
-          <div className="md:ml-[-30px]">
-            <MenuButton />
+        <div className="left-buttons pt-[30px] md:pt-0 md:absolute left-0 md:top-[30px] flex flex-col gap-[30px] font-[kenia]">
+        
+        <div className="ml-[-30px]">
+            <MenuButton name="Home"/>
           </div>
-          <div className="md:ml-[-120px]">
-            <MenuButton />
+          <div className="ml-[-150px]">
+            <MenuButton name="Events"/>
           </div>
-          <div className="md:ml-[-150px]">
-            <MenuButton />
+          <div className="ml-[-180px]">
+            <MenuButton name="Workshops"/>
           </div>
-          <div className="md:ml-[-30px]">
-            <MenuButton />
+          
+          <div className="ml-[-150px]">
+            <MenuButton name="Web Team"/>
           </div>
-          <div className="md:ml-[-150px]">
-            <MenuButton />
+          <div className="ml-[-30px]">
+            <MenuButton name="Updates"/>
           </div>
-          <div className="md:ml-[-30px]">
-            <MenuButton />
+         
+          
+        </div>
+        <div className="center-button absolute top-[-20px] left-2/5">
+        <div className="">
+            <MenuButton name="Login"/>
           </div>
         </div>
         <div className="right-buttons md:absolute right-0 top-[30px] flex flex-col gap-[30px]">
-          <div className="md:mr-[-30px]">
-            <MenuButton />
+          <div className="mr-[-30px]">
+            <MenuButton name="About"/>
           </div>
-          <div className="md:mr-[-120px]">
-            <MenuButton />
+          <div className="mr-[-150px]">
+            <MenuButton name="Core Team"/>
           </div>
-          <div className="md:mr-[-150px]">
-            <MenuButton />
+          <div className="mr-[-180px]">
+            <MenuButton name="Referals"/>
           </div>
-          <div className="md:mr-[-30px]">
-            <MenuButton />
+          <div className="mr-[-150px]">
+            <MenuButton name="Sponsors"/>
           </div>
-          <div className="md:mr-[-150px]">
-            <MenuButton />
-          </div>
-          <div className="md:mr-[-30px]">
-            <MenuButton />
+          <div className="mr-[-30px]">
+            <MenuButton name="Contact"/>
           </div>
         </div>
       </div>

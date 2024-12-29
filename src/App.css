@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ .menu-btn{
+    font-family: "Keania One", serif;
+    font-size: 24px;
+    font-weight: 100;
+ } 
 #particles canvas {
     z-index: -1;
     height: 100%;
