@@ -16,11 +16,11 @@ const MenuButton = ({ name, text, action }) => {
     };
 
     return (
-        <div className=" flex justify-center items-center">
+        <div className="menu-btn flex justify-center items-start">
             <div className="relative">
                 <img src={button} className="h-[60px] w-[150px]" />
                 <div
-                    className="absolute text-[10px] font-bold text-white flex justify-center items-center z-[10px] top-[10px] right-[10px] left-[10px]"
+                    className="absolute   text-white flex justify-center items-center  z-[10px] top-[5px] right-[10px] left-[10px]"
                    onClick={handleClick}
                 >
                     {name}
