@@ -11,6 +11,14 @@ const Referals = () => {
           className="w-full h-[60px] md:max-w-[850px] relative"
         ></img>
         <div className="absolute flex flex-row font-bold w-[800px]">
+<<<<<<< HEAD
+            <p>S.NO</p>
+            <p className="pl-32">Name</p>
+            <p className="pl-52">Email</p>
+            <p className="pl-60">Referals</p>
+        </div></div>
+        <div className="flex justify-center items-center w-full pt-[40px] text-white"><img src={Group} className="w-full h-[60px] md:max-w-[850px]"></img>
+=======
           <p>S.NO</p>
           <p className="pl-40">Name</p>
           <p className="pl-52">Email</p>
@@ -19,6 +27,7 @@ const Referals = () => {
       </div>
       <div className="flex justify-center items-center w-full pt-[40px] text-white">
         <img src={Group} className="w-full h-[60px] md:max-w-[850px]"></img>
+>>>>>>> 7d295ca1d2499e48def58e8364e153ece316653e
         <div className="absolute flex flex-row w-[800px]">
           <p>1</p>
           <p className="pl-36">Sribabu</p>
