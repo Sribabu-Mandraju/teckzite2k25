@@ -43,7 +43,7 @@ const Events = () => {
             </div>
           ))}
         </div>
-        <div className=" flex md:flex-row flex-col justify-center items-center md:gap-[70px] gap-[20px] md:flex-wrap">
+        <div className=" flex md:flex-row flex-col justify-center items-center md:gap-[70px] gap-[40px] md:flex-wrap">
         {filteredData.map((item) => (
           <EventCard
             key={item.id} 
