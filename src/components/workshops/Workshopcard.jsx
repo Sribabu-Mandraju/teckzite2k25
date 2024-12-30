@@ -6,8 +6,6 @@ import Button from '../Buttons/Button';
 import { FaInstagram } from "react-icons/fa6";
 import { RiFacebookCircleLine } from "react-icons/ri";
 import './Workshopcard.css';
-
-
 const Workshopcard = () => {
     return (
         <div className="flex justify-center bg-[black] items-center min-h-screen ">
