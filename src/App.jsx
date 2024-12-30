@@ -17,9 +17,9 @@ const App = () => {
         <Route path="/card" element={<EventCard />}/>
        <Route path="/horizontal" element={<HorizontalCard />}/>
        <Route path="/webteam" element={<WebTeam />}/>
-       <Route path="/Events" element={<Events/>}/>
-       <Route path="/workshop" element={<Workshopcard/>}/>
-       <Route path="/scanner" element={<Scanner/>}/>
+       <Route path="/Events" element={<Events />}/>
+       <Route path="/workshop" element={<Workshopcard />}/>
+       <Route path="/scanner" element={<Scanner />}/>
       </Routes>
     </Router>
     </div>
