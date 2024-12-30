@@ -9,6 +9,7 @@ import Workshopcard from './components/workshops/Workshopcard';
 import WebTeam from './components/WebTeam/WebTeam';
 import Animation from './Eventsbackground/Animation';
 import Scanner from './components/Scanner/Scanner';
+import NewHeader from './components/NewHeader/NewHeader';
 const App = () => {
   return (
     <div className='bg-[#1E1C1C]'>
@@ -22,6 +23,7 @@ const App = () => {
        <Route path="/animation" element={<Animation/>}/>
        <Route path="/workshop" element={<Workshopcard/>}/>
        <Route path="/scanner" element={<Scanner/>}/>
+       <Route path="/newheader" element={<NewHeader/>}/>
       </Routes>
     </Router>
     </div>
