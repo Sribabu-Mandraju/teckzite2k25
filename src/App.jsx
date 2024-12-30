@@ -8,6 +8,7 @@ import HorizontalCard from './components/Card/HorizontalCard';
 import Referals from './components/Card/Referals';
 import { Menu } from './components/Menu';
 import WebTeam from './components/WebTeam/WebTeam';
+import Animation from './Eventsbackground/Animation';
 const App = () => {
   return (
     <div className='bg-[#1E1C1C]'>
@@ -21,6 +22,7 @@ const App = () => {
        <Route path="/horizontal" element={<HorizontalCard />}/>
        <Route path="/webteam" element={<WebTeam />}/>
        <Route path="/Events" element={<Events/>}/>
+       <Route path="/animation" element={<Animation/>}/>
       </Routes>
     </Router>
     </div>
