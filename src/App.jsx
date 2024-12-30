@@ -7,6 +7,7 @@ import EventCard from './components/Events/EventCard';
 import HorizontalCard from './components/Card/HorizontalCard';
 import Workshopcard from './components/workshops/Workshopcard';
 import WebTeam from './components/WebTeam/WebTeam';
+import Animation from './Eventsbackground/Animation';
 import Scanner from './components/Scanner/Scanner';
 const App = () => {
   return (
@@ -17,9 +18,10 @@ const App = () => {
         <Route path="/card" element={<EventCard />}/>
        <Route path="/horizontal" element={<HorizontalCard />}/>
        <Route path="/webteam" element={<WebTeam />}/>
-       <Route path="/Events" element={<Events />}/>
-       <Route path="/workshop" element={<Workshopcard />}/>
-       <Route path="/scanner" element={<Scanner />}/>
+       <Route path="/Events" element={<Events/>}/>
+       <Route path="/animation" element={<Animation/>}/>
+       <Route path="/workshop" element={<Workshopcard/>}/>
+       <Route path="/scanner" element={<Scanner/>}/>
       </Routes>
     </Router>
     </div>

@@ -7,6 +7,12 @@
     font-size: 24px;
     font-weight: 100;
  } 
+
+
+body{
+    width:100%;
+    overflow-x: hidden;
+}
 #particles canvas {
     z-index: -1;
     height: 100%;
