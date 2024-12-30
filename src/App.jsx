@@ -7,6 +7,7 @@ import EventCard from './components/Events/EventCard';
 import HorizontalCard from './components/Card/HorizontalCard';
 import Workshopcard from './components/workshops/Workshopcard';
 import WebTeam from './components/WebTeam/WebTeam';
+import Scanner from './components/Scanner/Scanner';
 const App = () => {
   return (
     <div className='bg-[#1E1C1C]'>
@@ -17,6 +18,8 @@ const App = () => {
        <Route path="/horizontal" element={<HorizontalCard />}/>
        <Route path="/webteam" element={<WebTeam />}/>
        <Route path="/Events" element={<Events/>}/>
+       <Route path="/workshop" element={<Workshopcard/>}/>
+       <Route path="/scanner" element={<Scanner/>}/>
       </Routes>
     </Router>
     </div>
