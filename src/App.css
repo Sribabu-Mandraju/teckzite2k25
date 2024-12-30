@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+ .menu-btn{
+    font-family: "Keania One", serif;
+    font-size: 24px;
+    font-weight: 100;
+ } 
+
 
 body{
     width:100%;
