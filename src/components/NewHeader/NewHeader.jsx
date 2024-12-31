@@ -2,6 +2,7 @@ import React from "react";
 import desktop2 from "../../assets/desktop2.png";
 import tab2 from "../../assets/tab2.png";
 import mobile2 from "../../assets/mobile2.png"
+import logo from "../../assets/logo.png"
 const NewHeader = () => {
   return (
     <div>
@@ -10,10 +11,13 @@ const NewHeader = () => {
           <div className="z-[100] fixed top-[26px] left-0 w-full h-auto">
             <img src={desktop2} className="w-full h-auto" />
           </div>
-          <div className="fixed w-full h-auto top-[10px] left-0 text-white flex flex-row  justify-around">
-            <div>Menu</div>
-            <div className="text-5xl font-semibold">TECKZITE</div>
-            <div>Login</div>
+          <div className="fixed w-full h-auto top-0 left-0 text-white flex flex-row items-center justify-around">
+            <div className='pb-[60px]'>Menu</div>
+            <div className=''>
+              <img src={logo}  className="h-[120px] w-[250px] pb-[14px]"/>
+
+            </div>
+            <div className='pb-[60px]'>Login</div>
           </div>
           <div className="z-[100] fixed bottom-[26px] right-0 w-full h-auto">
             <img src={desktop2} className="w-full h-auto scale-y-[-1]" />

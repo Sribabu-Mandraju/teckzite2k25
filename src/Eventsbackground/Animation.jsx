@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Humanhand from "../assets/Humanhand.png";
 import Robohand from "../assets/Robohand.png";
+import Events from "../components/Events/Events";
 
 const Animation = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -20,7 +21,7 @@ const Animation = () => {
   return (
     <>
       {/* Wrapper for Animation */}
-      <div className="relative w-full h-screen">
+      <div className="relative w-full h-screen bg-black">
         {/* Animation Layer */}
         <div
           className="fixed top-0 left-0 w-full h-screen pointer-events-none"
@@ -57,15 +58,15 @@ const Animation = () => {
       </div>
 
       {/* Bottom Content */}
-      <div className="w-full h-screen bg-gray-800 flex items-center justify-center text-white text-2xl">
-        Scroll down to interact with this content
+      <div className="w-full h-screen bg-black flex items-center justify-center text-white text-2xl">
+        <Events/>
       </div>
-      <div className="w-full h-screen bg-blue-600 flex items-center justify-center text-white text-2xl">
+      {/* <div className="w-full h-screen bg-blue-600 flex items-center justify-center text-white text-2xl">
         More interactive content
       </div>
       <div className="w-full h-screen bg-green-600 flex items-center justify-center text-white text-5xl">
         This is the final section
-      </div>
+      </div> */}
     </>
   );
 };

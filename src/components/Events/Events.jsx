@@ -23,7 +23,7 @@ const Events = () => {
   const filteredData = select === 'All' ? Eventslist : Eventslist.filter((item) => item.category?.toLowerCase() === select.toLowerCase());
 
   return (
-    <div className="bg-black justify-center items-center min-h-screen">
+    <div className="bg-black  justify-center items-center min-h-screen">
       <div className="flex flex-col gap-[20px] justify-center items-center ">
 
         <div className="text-white text-[30px] font-bold">Events</div>
