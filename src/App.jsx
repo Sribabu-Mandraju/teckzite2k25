@@ -15,11 +15,11 @@ const App = () => {
     <div className='bg-[#1E1C1C]'>
     <Router>
       <Routes>
-        <Route path="/" element={<Workshopcard />}/>
+        <Route path="/" element={<Events />}/>
         <Route path="/card" element={<EventCard />}/>
        <Route path="/horizontal" element={<HorizontalCard />}/>
        <Route path="/webteam" element={<WebTeam />}/>
-       <Route path="/Events" element={<Events/>}/>
+       <Route path="/workshop" element={<Workshopcard/>}/>
        <Route path="/animation" element={<Animation/>}/>
        <Route path="/workshop" element={<Workshopcard/>}/>
        <Route path="/scanner" element={<Scanner/>}/>
