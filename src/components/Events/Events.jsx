@@ -26,7 +26,7 @@ const Events = () => {
     <div className="bg-black  w-screen justify-center items-center min-h-screen">
       <div className="flex flex-col gap-[20px] justify-center items-center ">
 
-        <div className="text-white text-[30px] font-bold">Events</div>
+        <div className="text-white text-[30px] font-bold">EVENTS</div>
         <div className="flex flex-row justify-center items-center lg:flex-wrap flex-wrap p-[20px]">
           {navigation.map((item) => (
             <div
